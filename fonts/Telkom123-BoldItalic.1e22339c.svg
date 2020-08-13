@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SMB Telkom</title>
+    <link rel="canonical" href="https://telkombusiness.co.za/static/media/Telkom123-BoldItalic.1e22339c.svg" />
+    <meta name="description" content="Small Medium Business" />
+    <meta name="keywords" content="SMB Telkom, Telkom Products" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@SMB Telkom" />
+    <meta name="twitter:title" content="SMB Telkom" />
+    <meta name="twitter:description" content="Small Medium Business" />
+    <meta name="twitter:image" content="/Assets/Icons/telkomlogo.png" />
+    <meta name="twitter:creator" content="SMB Telkom" />
+    <meta property="og:site_name" content="SMB Telkom" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SMB Telkom" />
+    <meta property="og:description" content="Small Medium Business" />
+    <meta property="og:url" content="https://telkombusiness.co.za/static/media/Telkom123-BoldItalic.1e22339c.svg" />
+    <meta property="og:image" content="/Assets/Icons/telkomlogo.png" />
+    <meta property="og:image:width" content="567" />
+    <meta property="og:image:height" content="320" />
+    <link rel="stylesheet" href="/css/main.css?dt= 1597318091976" type="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#0083c2" />
+    <meta name="msapplication-navbutton-color" content="#0083c2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="/favicon.ico?dt= 1597318091976" />
+    <link rel="manifest" href="/manifest.json?dt= 1597318091976" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?dt= 1597318091976" type="text/javascript"></script>
+    <script type="text/javascript" src="/index.js?dt= 1597318091976"></script>
+    <script> (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5ZMG6HB'); </script>
+  </head>
+  <body>
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZMG6HB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <main id="root"></main>
+    <script>window["__PRELOADED_STATE__"] = {"postReducer":[]}</script>
+    <script async="" type="application/javascript" src="/bundle.js?dt= 1597318091976"></script>
+    <script async="" type="text/javascript" src="/clientchunks/07f56b3319ba404b486a-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/25daa5de00cc635075fd-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/4cf7680c6398ec67a1c3-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/5e78a93d36a9a192c250-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/6ca3d1d4b6766ae66631-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/7061b352abb413376033-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/7b249c286c2e99f4c686-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/82bd25cd39b2b34618a2-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/943a06ff5b81864d77c0-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/bb83a22686ff774046d7-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/e80ba95d786e1ef1cf8d-chunk.bundle.js?dt=1597318091646"></script>
+    <script async="" type="text/javascript" src="/clientchunks/efabfdc3d73effb754d3-chunk.bundle.js?dt=1597318091646"></script>
+  </body>
+</html>
