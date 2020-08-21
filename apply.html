@@ -81,11 +81,11 @@ box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 
 }
 
 .panel .back{
-     position:absolute;
-  top:-185px;
-  left:0px;
-  background:#082d6c;
-box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 0.1), 6px 6px 16px rgba(8, 45, 108, 0.2);
+    position:absolute;
+    top:-185px;
+    left:0px;
+    background:#082d6c;
+    box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 0.1), 6px 6px 16px rgba(8, 45, 108, 0.2);
     text-align: center;
     -webkit-transform: rotateY(-179deg);
     transform: rotateY(-179deg);
@@ -251,7 +251,7 @@ box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 
                                 </div>
                                 </div>
                                 <div class="button-group-area mt-5">
-                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 font-strong border-3x">Back</a>
+                                <!--<a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 preBtn font-strong border-3x">Back</a>-->
                                 <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
                                 </div>
                             </div>
@@ -277,61 +277,343 @@ box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 
                                     <hr class="border-white-top">
                                     <p class="uppercase f-12 lh-15 family-strong mb-0">Benefit amount</p>
                                     <label class="f-37 lh-54 font-strong color-white">R50 000</label>
-                                    <a href="#" class="genric-btn info bold-letters get-a-quote width-full bg-bright-blue mt-3 font-strong pt-10 pb-10">Call me back</a>
+                                    <a href="#" class="genric-btn info bold-letters get-a-quote width-full bg-bright-blue mt-3 pt-10 pb-10">Call me back</a>
                                     <p class="wow text-center f-14 mt-2">Need assistance? We'll call you.</p>
                             </div>
                             </div>
                             </div>
                           </div>
-                          </div>
-                          <div class="panel panel-primary setup-content mt-5" id="step-2">
-                            <div class="panel-heading">
-                              <h3 class="panel-title f-48 l-52 color-navy">Your quote details</h3>
-                              </div>
-                              <div class="button-group-area mt-5">
-                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 font-strong border-3x">Back</a>
-                                <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
-                                </div>
-                          </div>
+                    </div>
+                    <div class="panel panel-primary setup-content mt-5" id="step-2">
+                    <div class="panel-heading">
+                        <h3 class="panel-title f-48 l-52 color-navy">Your quote details</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-sm-12">
+                        <div class="button-group-area mt-5">
+                        <a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 preBtn font-strong border-3x">Back</a>
+                        <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- step3 -->
                           <div class="panel panel-primary setup-content mt-5" id="step-3">
-                            <div class="panel-heading">
-                              <h3 class="panel-title f-48 l-52 color-navy">Your personal details</h3>
-                              </div>
-                              <div class="button-group-area mt-5">
-                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 font-strong border-3x">Back</a>
-                                <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
-                                </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-8 col-sm-12">
+                                        <div class="content">
+                                            <div class="tool">
+                                                <h3 class="tooltip--triangle panel-title f-48 l-52 color-navy">Your personal details</h3>
+                                                <div class="tooltip">
+                                                    <div class="row">
+                                                    <div class="col-md-2 mt-2">
+                                                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8.5231 16.2059C4.29272 16.2059 0.863525 12.7767 0.863525 8.54629C0.863525 4.31591 4.29272 0.886719 8.5231 0.886719C12.7535 0.886719 16.1827 4.31591 16.1827 8.54629C16.1827 12.7767 12.7535 16.2059 8.5231 16.2059ZM8.52319 0.121094C3.87 0.121094 0.0976562 3.89382 0.0976562 8.54663C0.0976562 13.1998 3.87 16.9722 8.52319 16.9722C13.1764 16.9722 16.9487 13.1998 16.9487 8.54663C16.9487 3.89382 13.1764 0.121094 8.52319 0.121094ZM9.36131 4.33057C9.06412 4.33057 8.80906 4.42669 8.5965 4.61933C8.38357 4.81197 8.2771 5.04367 8.2771 5.31482C8.2771 5.58597 8.38357 5.81652 8.5965 6.00725C8.80906 6.19797 9.06412 6.29333 9.36131 6.29333C9.6585 6.29333 9.9128 6.19797 10.1238 6.00725C10.3345 5.81652 10.4402 5.58597 10.4402 5.31482C10.4402 5.04367 10.3345 4.81197 10.1238 4.61933C9.9128 4.42669 9.6585 4.33057 9.36131 4.33057ZM9.64831 12.0002C9.41393 12.0002 9.24886 11.9626 9.1535 11.8876C9.05814 11.8125 9.01065 11.672 9.01065 11.4652C9.01065 11.3828 9.02559 11.2618 9.05508 11.1013C9.08418 10.9412 9.1175 10.7984 9.15427 10.6735L9.60695 9.11711C9.65099 8.97464 9.68125 8.81762 9.69772 8.64681C9.71418 8.47524 9.72261 8.35613 9.72261 8.28796C9.72261 7.96013 9.60389 7.69358 9.3672 7.4883C9.13014 7.28341 8.79312 7.18115 8.35614 7.18115C8.11372 7.18115 7.85635 7.2229 7.58444 7.30677C7.31252 7.39026 7.02797 7.49136 6.7304 7.60894L6.60938 8.09034C6.69746 8.05817 6.80316 8.02447 6.92686 7.98847C7.0498 7.95285 7.17044 7.93524 7.28801 7.93524C7.52737 7.93524 7.68899 7.97468 7.77363 8.05281C7.85827 8.13132 7.90078 8.27034 7.90078 8.47026C7.90078 8.58056 7.88699 8.70273 7.85942 8.83639C7.83184 8.96966 7.79776 9.11213 7.75716 9.26149L7.30257 10.8233C7.26235 10.9872 7.23286 11.1346 7.21448 11.2649C7.19648 11.3943 7.18729 11.5222 7.18729 11.6471C7.18729 11.968 7.30908 12.2326 7.55303 12.4414C7.79699 12.6497 8.13937 12.7539 8.57942 12.7539C8.86589 12.7539 9.11712 12.7175 9.3335 12.6443C9.55027 12.5716 9.8398 12.4651 10.2032 12.3261L10.3243 11.8447C10.2622 11.8734 10.1611 11.906 10.0221 11.9439C9.88269 11.9814 9.75823 12.0002 9.64831 12.0002Z" fill="#008FE0"/>
+                                                            </svg>                                                            
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <p class="azure-blue f-12 l-20 ls-0-1">This is where we can give a helpful tip on how to get the most out of our services. </p>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                               </div>
+                                        <h6 class="f-16 lh-23 ls-0-5 uppercase blue-gray mt-5">WE NEED A FEW MORE DETAILS</h6>
+                                        <p class="f-12 lh-20 ls-0-1 gray">We'll keep all your information safe and won't share it with anyone.</p>
+                                        <p class="f-12 l-17 gray mt-4 mb-0">Do you intend on replacing any existing funeral cover with this cover?</p>
+                                        <p class="f-12 l-20 gray ls-0-1">what is this?</p>
+                                    <div class="button-group-area">
+                                        <a href="#" class="genric-btn border-gray large py-0 rounded w-25 font-strong border-15x color-gray">Yes</a>
+                                        <a href="#" class="genric-btn btn-outline-primary py-1 border-gray w-25 font-strong border-3x color-gray">No</a></div>
+                                        </div>
+                                        <div class="form mb-4">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                  <div class="mt-10 wide">
+                                                <label class="left f-12 l-17 m-0 color-grey mt-4">Title</label>
+                                                <div class="default-select title" id="default-select">
+                                                  <select>
+                                                    <option value="1">Miss.</option>
+                                                    <option value="1">Mrs.</option>
+                                                    <option value="1">Mr.</option>
+                                                    
+                                                  </select>
+                                                </div>
+                                                        </div>
+                                                  
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                      
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">Full name</label><input type="text" name="Full_name" autocomplete="off" min="0" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'FullName'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                
+                                                     </div>
+                                                </div>
+                                                 <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17  m-0 color-grey mt-4">Surname</label>
+                                                            <input type="text" name="sur_name" autocomplete="off" min="0" placeholder="Surname" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Surname'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                                <div class="row">
+                                                <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">ID Number</label><input type="Number" name="id_number" autocomplete="off" min="0" placeholder="eg.961008005008" onfocus="this.placeholder = ''" onblur="this.placeholder = 'IDNumber'"  class="single-input p-0 transparent-input">
+                                                       
+                                                        </div>
+                                                    </div>
+                                                     </div>
+                                                </div>
+                                                 <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17  m-0 color-grey mt-4 pl-0">Marital Status</label>  <div class="default-select  title" id="default-select"><select>
+                                                            <option value="1">Single</option>
+                                                        <option value="2">Married</option>
+                                                        <option value="3">Widow</option></select>
+                                                        </div></div>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                             <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">Cell phone number</label><input type="number" name="contact_number" autocomplete="off" min="0" placeholder="082 722 9389" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contact Number'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                             <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">Email Address</label><input type="text" name="email_address" autocomplete="off" min="0" placeholder="eg. stefan@yourmail.com" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                            
+                                        </div>
+                                        <div class="row">	
+                                         <div class="col-lg-12 mt-4">
+                                         <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4" for="addres">Address</label><input type="text" name="addres" list="addresses" id="autoComplete" autocomplete="off" placeholder="Start typing" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Start typing'"  class="single-input p-0 transparent-input">
+                                                            <datalist id="dataList">
+                                                        </div>
+                                                        <div id="listitems" style='display:none'>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 mt-4">
+                                                                  
+                                                                        <div class="single_input">
+                                                                        <div class="mt-10 wide">
+                                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">City</label><input type="text" name="city" id="city" autocomplete="off" min="0" placeholder="City" onfocus="this.placeholder = ''" onblur="this.placeholder = 'City'"  class="single-input p-0 transparent-input">
+                                                                        </div>
+                                                                   
+                                                                     </div>
+                                                                </div>
+                                                                 <div class="col-lg-6 mt-4">
+                                                                    <div class="single_input">
+                                                                        <div class="mt-10 wide">
+                                                                            <label class="left f-12 l-17  m-0 color-grey mt-4">Province</label><input type="text" name="province" id="province" autocomplete="off" min="0" placeholder="Province" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Province'"  class="single-input p-0 transparent-input">
+                                                                        </div>
+                                                                     </div>
+                                                                </div></div>
+                                                                <div class="row">
+                                                                    <div class="col-lg-6 mt-4">
+                                                                        <div class="single_input">
+                                                                            <div class="mt-10 wide">
+                                                                                <label class="left f-12 l-17  m-0 color-grey mt-4">Code</label><input type="text" name="code" id="code" autocomplete="off" min="0" placeholder="Code" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Code'"  class="single-input p-0 transparent-input">
+                                                                            </div>
+                                                                         </div>
+                                                                    </div></div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                         
+                                         </div>
+                                           </div>   
+                                           
+                                       <div class="my-3">
+                                        <hr class="mt-73 border-top-columbia-blue"><h6 class='blue-gray f-16 lh-23 ls-0-5 uppercase '>ADD A BENEFICIARY</h6>
+                                        <small class='color-grey lh-20 f-12 l-s-m-1'>This is the person who will receive your funeral cover payout.</small>
+                                    </div>
+                                        <div class="row">
+                                        <div class="col-md-12">
+                                        <div class="mt-10 wide">
+                                        <label class="left f-12 l-17 m-0 color-grey mt-4">Beneficiart relationship</label>
+                                        <div class="col-sm-5 pl-0">
+                                        <div class="default-select  title" id="default-select">
+                                                  <select >
+                                                    <option value="1">Select</option>
+                                                    <option value="1">Miss.</option>
+                                                    <option value="1">Mrs.</option>
+                                                    <option value="1">Mr.</option>
+                                                    
+                                                  </select>
+                                         </div>
+                                         </div>
+                                         </div>
+                                        </div>
+                                        </div>	
+                                        <div class="row">
+                                                <div class="col-lg-6 mt-4">
+                                                  
+                                                        <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">Full name</label><input type="text" name="Full_name" autocomplete="off" min="0" placeholder="Full Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'FullName'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                   
+                                                     </div>
+                                                </div>
+                                                 <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17  m-0 color-grey mt-4">Surname</label><input type="text" name="sur_name" autocomplete="off" min="0" placeholder="Surname" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Surname'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                                <div class="row">
+                                                <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">ID Number</label><input type="Number" name="id_number" autocomplete="off" min="0" placeholder="eg.961008005008" onfocus="this.placeholder = ''" onblur="this.placeholder = 'IDNumber'"  class="single-input p-0 transparent-input">
+                                                       
+                                                        </div>
+                                                    </div>
+                                                     </div>
+                                                </div>
+                                             <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">Email Address</label><input type="text" name="email_address" autocomplete="off" min="0" placeholder="eg. stefan@yourmail.com" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                             <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">Cell phone number</label><input type="number" name="contact_number" autocomplete="off" min="0" placeholder="Contact Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contact Number'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                             <div class="col-lg-6 mt-4">
+                                                    <div class="single_input">
+                                                        <div class="mt-10 wide">
+                                                            <label class="left f-12 l-17 m-0 color-grey mt-4">Alternative contact number</label><input type="number" name="contact_number" autocomplete="off" min="0" placeholder="Contact Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Contact Number'"  class="single-input p-0 transparent-input">
+                                                        </div>
+                                                     </div>
+                                                </div>
+                                            
+                                        </div>
+                                        </div>
+                                        <div class="button-group-area mt-5">
+                                            <a href="#" class="genric-btn color-azure-blue border-azure-blue large preBtn w-25 font-strong border-3x">Back</a>
+                                            <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
+                                            </div> 
+                                    </div>
+                                    
+                                    <div class="col-md-4 col-sm-12 ">
+                                        <div class="pad bg-blue-gredient p-30">
+                                            <h2 class="text-left f-24 l-36 mb-15">Your policy summary</h2>
+                                                <div class="bg-gray pl-30 pt-10 pb-2 mb-20">
+                                                    <label class="color-white f-30 l-50 ls-0-56 font-strong lh-50">R 135.00</label>
+                                                    <p class="f-10 l-15 color-white ls-15 uppercase">your total monthly premium</p>
+                                                </div>
+                                                <p class="f-14 lh-22 ls-0-18">Main member, spouse and children only</p>
+                                                <label class="f-14 lh-22 ls-0-18 color-white w-100">Spouse: 1</label>
+                                                <label class="f-14 lh-22 ls-0-18 color-white w-100">Children: 2</label>
+                                                <hr class="border-white-top">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                    <p class="f-12 lh-15 family-strong uppercase mb-0">Basic premium</p>
+                                                    </div>
+                                                    <div class="col-sm-6 text-right">
+                                                        <label class="f-14 lh-28 ls-0-21 color-white family-strong">R200.00</label>
+                                                    </div>
+                                                </div>
+                                                <hr class="border-white-top">
+                                                <p class="uppercase f-12 lh-15 family-strong mb-0">Benefit amount</p>
+                                                <label class="f-37 lh-54 font-strong color-white">R70 000</label>
+                                                <div class="mt-5 container box border-3x p-3">
+                                                    <p class="f-14 lh-22 ls-0-18 font-strong ">Extended Funeral plan</p>
+                                                    <label class="f-14 lh-22 ls-0-18 color-white w-100">Parent-in-law: 1</label>
+                                                    <hr class="border-white-top">
+                                                    <div class="row">
+                                                    <div class="col-sm-6">
+                                                    <p class="f-12 lh-15 family-strong uppercase mb-0">Basic premium</p>
+                                                    </div>
+                                                    <div class="col-sm-6 text-right">
+                                                        <label class="f-14 lh-28 ls-0-21 color-white family-strong">R75.00</label>
+                                                    </div>
+                                                    </div>
+                                                    <hr class="border-white-top">
+                                                    <p class="uppercase f-12 lh-15 family-strong mb-0">Benefit amount</p>
+                                                <label class="f-37 lh-54 font-strong color-white">R10 000</label>
+                                                </div>
+                                                <a href="#" class="genric-btn info bold-letters get-a-quote width-full bg-bright-blue mt-3 pt-10 pb-10">Call me back</a>
+                                                <p class="wow text-center f-14 mt-2">Need assistance? We'll call you.</p>
+                                        </div>
+                                    </div>
+                                    </div>
+                            </div>
+                             
                           </div>
+
                           <div class="panel panel-primary setup-content mt-5" id="step-4">
                             <div class="panel-heading">
                               <h3 class="panel-title f-48 l-52 color-navy">Your Dependent/s details</h3>
                               </div>
+                              <div class="row">
+                                <div class="col-md-8 col-sm-12">
                               <div class="button-group-area mt-5">
-                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 font-strong border-3x">Back</a>
+                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large preBtn w-25 font-strong border-3x">Back</a>
                                 <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
+                                </div>
+                                </div>
                                 </div>
                           </div>
                           <div class="panel panel-primary setup-content mt-5" id="step-5">
                             <div class="panel-heading">
                               <h3 class="panel-title f-48 l-52 color-navy">Your quote summary</h3>
                               </div>
+                              <div class="row">
+                                <div class="col-md-8 col-sm-12">
                               <div class="button-group-area mt-5">
-                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 font-strong border-3x">Back</a>
+                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large preBtn w-25 font-strong border-3x">Back</a>
                                 <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
+                                </div>
+                                </div>
                                 </div>
                           </div>
                           <div class="panel panel-primary setup-content mt-5" id="step-6">
                             <div class="panel-heading">
                               <h3 class="panel-title f-48 l-52 color-navy">Your payment</h3>
                               </div>
+                              <div class="row">
+                                <div class="col-md-8 col-sm-12">
                               <div class="button-group-area mt-5">
-                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large w-25 font-strong border-3x">Back</a>
-                                <a href="#" class="genric-btn success-border large w-25 bg-azure-blue nextBtn color-white font-strong border-3x">Next</a>
+                                <a href="#" class="genric-btn color-azure-blue border-azure-blue large preBtn w-25 font-strong border-3x">Back</a>
+                                <a href="#" class="genric-btn success-border large w-25 bg-azure-blue color-white font-strong border-3x">Comfirm</a>
+                                </div>
+                                </div>
                                 </div>
                           </div>
                         </div>
                         
                     </div>
+                    
                   </form>
         </div>
     </div>
@@ -490,6 +772,7 @@ box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 
 var navListItems = $('div.setup-panel div a'),
     allWells = $('.setup-content'),
     allNextBtn = $('.nextBtn');
+    allPreBtn = $('.preBtn');
 
 allWells.hide();
 
@@ -524,10 +807,98 @@ allNextBtn.click(function () {
 
     if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
 });
+allPreBtn.click(function () {
+    var curStep = $(this).closest(".setup-content"),
+        curStepBtn = curStep.attr("id"),
+        nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().prev().children("a"),
+        curInputs = curStep.find("input[type='text'],input[type='url']"),
+        isValid = true;
+
+    $(".form-group").removeClass("has-error");
+    for (var i = 0; i < curInputs.length; i++) {
+        if (!curInputs[i].validity.valid) {
+            isValid = false;
+            $(curInputs[i]).closest(".form-group").addClass("has-error");
+        }
+    }
+
+    if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
+});
 
 $('div.setup-panel div a.btn-success').trigger('click');
 });
-    </script>
+  
+
+    $(document).ready(function() { 
+        $('[data-toggle="tooltip"]').tooltip(); 
+    });  
+</script> 
+<script>
+const dataList = document.getElementById('dataList');
+const input = document.getElementById('autoComplete');
+
+const sectors = ["1240 John Vorster Dr, Irene, Centurion",
+"1236 John Vorster Dr, Irene, Centurion",
+"1237 John Vorster Dr, Irene, Centurion",
+"1238 John Vorster Dr, Irene, Centurion",
+"1240 John Vorster Dr, Irene, Centurion",
+"1241 John Vorster Dr, Irene, Centurion",
+"1243 John Vorster Dr, Irene, Centurion",
+"1244 John Vorster Dr, Irene, Centurion",
+"1246 John Vorster Dr, Irene, Centurion",
+"1245 John Vorster Dr, Irene, Centurion",
+"1248 John Vorster Dr, Irene, Centurion",
+"1258 John Vorster Dr, Irene, Centurion",
+"1254 John Vorster Dr, Irene, Centurion",
+"1250 John Vorster Dr, Irene, Centurion"];
+sectors.sort();
+
+for (let i = 0; i < sectors.length; ++i) {
+  const option = document.createElement('option');
+  option.setAttribute('value', sectors[i]);
+  option.innerHTML = sectors[i];
+  dataList.appendChild(option);
+}
+
+dataList.querySelectorAll('option').forEach((el, idx, arr) => {
+  el.addEventListener('click', (e) => {
+    input.value = el.value;
+  });
+});
+
+input.addEventListener('focus', showList);
+
+input.addEventListener('blur', () => {
+    $('#listitems').show();
+        $('#city').val(this.value);
+        $('#province').val(this.value); 
+        $('#code').val(this.value);
+  setTimeout(() => {
+    dataList.classList.remove('show');
+  }, 300);
+});
+
+input.addEventListener('keyup', showList);
+
+function showList() {
+  if (!!input.value) {
+    input.setAttribute("list", "dataList");
+    dataList.classList.remove('show');
+  } else {
+    input.removeAttribute("list");
+    dataList.classList.add('show');
+  }
+}
+
+input.addEventListener('change', () => {
+  if(!dataList.querySelector(`option[value='${input.value}']`)) {
+    input.value = '';
+  } else {
+    input.blur();
+  }
+});
+
+</script>
 </body>
 
 </html>
