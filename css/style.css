@@ -683,6 +683,33 @@ h3 {
   z-index: 9;
 }
 @media (max-width: 767px) {
+
+  .line-verticle {
+    opacity: 0.2;
+    transform: rotate(90deg);
+    width: 100px !important;
+    position: relative;
+    left: -23px !important;
+    background: #fff;
+    height: 1px;
+    bottom: 20px !important;
+}
+.line-horizantal {
+  width: 100px !important;
+  position: relative;
+  background: #008FE0;
+  height: 1px;
+  bottom: 35px !important;
+}
+.line-verticle-bottom {
+  transform: rotate(90deg);
+  width: 45px !important;
+  position: relative;
+  left: 330px !important;
+  top: 50px !important;
+  background: #008FE0;
+  height: 1px;
+}
   .line-visible-right {
     display: none !important;
   }
@@ -759,7 +786,7 @@ h3 {
 .line-visible {
   display: inline-block;
   background: #008FE0;
-  width: 500px;
+  width: 375px;
   height: 1px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -767,11 +794,10 @@ h3 {
   margin-bottom: 4px;
   position: absolute;
   top: 100px;
-  left: 400px;
+  left: 500px;
   z-index: 9;
 }
 
-/* line 10, ../../Arafath/CL/December/234. Finance/HTML/scss/_section_title.scss */
 .section_title h3 {
   font-size: 34px;
   font-weight: 400;
@@ -874,12 +900,15 @@ span.color-bg {
     margin-bottom: 40px;
   }
   .mt-380{
-    margin-top: 300px;
+    margin-top: 320px;
   }
   .pad p.call-you{
     font-size: 14px !important;
     line-height: 20px !important;
     color: #FFFFFF;
+  }
+  .res-mb-40{
+    margin-bottom: 100px !important;
   }
 }
 
@@ -907,6 +936,7 @@ span.color-bg {
   .pl-68 {
     padding-left: 0;
   }
+  
 }
 
 @media (max-width: 767px) {
@@ -917,6 +947,23 @@ span.color-bg {
     width: 100%;
     z-index: 9;
   }
+  .mobile_search {
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+  .mobile_search {
+    text-align: right;
+    right: 80px;
+    bottom: 0px;
+}
+.f-32 {
+  font-size: 25px !important;
+}
+.l-36 {
+  line-height: 34px;
+}
 }
 
 /* line 13, ../../Arafath/CL/December/234. Finance/HTML/scss/_slick-nav.scss */
@@ -1018,7 +1065,7 @@ span.color-bg {
 
 /* line 92, ../../Arafath/CL/December/234. Finance/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
-  background-color: transparent;
+  background-color: #005B94;
   cursor: pointer;
   margin-bottom: 10px;
   position: relative;
@@ -1026,10 +1073,10 @@ span.color-bg {
   border: none;
   border-radius: 3px;
   top: 5px;
-  padding: 5px;
-  right: 15px;
-  margin-top: -5px;
-  top: -25px;
+  padding: 19px;
+  right: -15px;
+  margin-top: -13px;
+  top: -31px;
 }
 .ls-minus-2{
   letter-spacing: -2px;
@@ -2557,6 +2604,14 @@ padding-left: 150px;
   padding-top: 150px;
 }
 @media (max-width: 767px) {
+  .left-20{
+    left:20px;
+    position: relative;
+  }
+  .right-20{
+    right:20px;
+    position: relative;
+  }
   .accordion_area_right::before{
     *display: none;
   }
@@ -2570,7 +2625,9 @@ padding-left: 150px;
     padding-top:0px;
   }
   .bg-color{
-    display: none;
+    height: 1300px !important;
+    top: 2950px !important;
+    right: 0;
   }
   .pb-130 {
     padding-bottom: 0px !important;
@@ -3651,9 +3708,20 @@ p #amount {
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_service.scss */
   .service_area {
-    padding-top: 50px;
+    padding-top: 70px;
     padding-bottom: 30px;
+    z-index: 0;
   }
+  .slider_area{
+    z-index: 9;
+  }
+  .panel .back {
+    top: 0px !important;
+  }
+  .mt-4{
+    margin-top: 0px !important;
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3840,8 +3908,10 @@ p #amount {
 @media (max-width: 767px) {
   /* line 13, ../../Arafath/CL/December/234. Finance/HTML/scss/_loan.scss */
   .apply_loan .loan_text h3 {
-    font-size: 24px;
-    line-height: 1.4;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.564706px;
   }
 }
 
@@ -7299,6 +7369,7 @@ border-radius: 3px !important;
   height: 690px;
   position: absolute;
   z-index: 0;
+  left: 0;
   top: 2420px;
 }
 .bg-transparent{
@@ -7770,5 +7841,109 @@ a.rounded.color-gray:hover {
 .border-5x{
   border-radius: 5px;
 }
+.wrap {
+  background: #1d1f20;
+  width: 50%;
+  height: 50%;
+  box-shadow: -2px -2px 8px 0px #000;
+}
 
+.label1 {
+  background: #0083c2;
+  font-size: 28px;
+  padding: 4px 15px;
+  color: #fff;
+}
+
+.top-right1 {
+  position: absolute;
+  top: 612%;
+  right: 2px;
+  transform: rotate(90deg) scaleX(-1) !important;
+  float: right;
+  box-shadow: 1px -1px 0px 2px #000;
+ 
+  ms-transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+
+-ms-transform-origin: left top 0;
+-moz-transform-origin: left top 0;
+-webkit-transform-origin: left top 0;
+transform-origin: right top 0;
+}
+  .rrr {
+    transform: scaleY(-1);
+  }
+
+  
+  .line-verticle {
+    opacity: 0.2;
+    transform: rotate(90deg);
+    width: 190px;
+    position: relative;
+    left: 150px;
+    background: #fff;
+    height: 1px;
+}
+.line-horizantal {
+  width: 300px;
+  position: relative;
+  background: #008FE0;
+  height: 1px;
+}
+.line-verticle-bottom {
+  transform: rotate(90deg);
+  width: 80px;
+  position: relative;
+  left: 1267px;
+  top: 30px;
+  background: #008FE0;
+  height: 1px;
+}
+
+
+.Navbar__Link {
+  padding-right: 8px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items--right {
+  margin-left:auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+  .Navbar {
+    display: flex;
+  }
+.Navbar__Items {
+    display:none;
+  }
+    
+.Navbar__Items--right {
+    margin-left:0;
+  }
+    
+.Navbar__ToggleShow {
+    display: flex;
+  }
+    
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+   } 
+}
 /*# sourceMappingURL=style.css.map */
