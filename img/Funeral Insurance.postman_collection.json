@@ -1,0 +1,864 @@
+{
+	"id": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+	"name": "Funeral Insurance",
+	"description": "",
+	"order": [
+		"5f30e8ae-214b-2ecd-6a68-77e4ff482635"
+	],
+	"folders": [
+		{
+			"name": "Benificiary",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"order": [
+				"3b6cb70d-5952-beef-cc78-8af9d1c62ecf"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "15a86202-d284-1a97-aa8a-f73f717e184f"
+		},
+		{
+			"name": "Host",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"order": [
+				"85ce2c60-a404-b0d2-b2c5-c6e2500e6ae5"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "f4dc41c3-bf40-d7cc-7cdb-3caec9b73a65"
+		},
+		{
+			"name": "Quote",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"order": [
+				"cc051cdc-4366-9ca9-cc9e-6787abc72dc2"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "6a7b95db-860c-7738-38e2-1e80c39b2176"
+		},
+		{
+			"name": "UserManagement",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"order": [
+				"cfbc736f-519a-a243-e91e-5fa98f55dfe8",
+				"2714fb79-7a33-60cc-e7bc-2d787b9aa880",
+				"878949eb-6724-e2bb-d3ec-6c4ae3eb1b5a",
+				"8315f59e-6cfe-c0b1-f8eb-7a813d54e2d2",
+				"9518dffe-45ae-b19e-e4ef-91545bb0771e",
+				"99413e3f-a330-b8a0-788d-9c53250dc048",
+				"eb6f7121-8b81-bd4e-6665-a80211de6c22"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "df8d8c83-99dd-c150-d4f7-c0bbbce70275"
+		},
+		{
+			"name": "drop downs",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"order": [
+				"068f3913-4e61-a17d-a4fd-6dda88bd2ac8",
+				"91a6604d-1ad6-9732-910a-a793ef95f888",
+				"ef650576-003b-6e25-6671-4a16845a8a22"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "617fb386-db1c-cdb8-f65e-9677ceae9895"
+		},
+		{
+			"name": "policy",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"order": [
+				"056caa62-262c-1023-d817-5a9331eef312",
+				"8e9ba1e1-ba2f-bdfe-4125-1946552a90cc",
+				"0fc137df-c015-154a-c13f-fee7c09009eb",
+				"85d9fa64-5247-9852-9da4-08b2883d4b46",
+				"5401310a-79b9-20b5-30d3-f09a61dd0265",
+				"38a9e1db-238c-2099-9353-9be4059ad42a",
+				"0c96c9a8-e24c-bc31-f750-64d4f906ab97",
+				"41b7739f-86e7-6514-d2b5-ab2edbe51cd9"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "7ee25783-3226-c532-e0ea-a19d545115f1"
+		}
+	],
+	"folders_order": [
+		"df8d8c83-99dd-c150-d4f7-c0bbbce70275",
+		"6a7b95db-860c-7738-38e2-1e80c39b2176",
+		"7ee25783-3226-c532-e0ea-a19d545115f1",
+		"f4dc41c3-bf40-d7cc-7cdb-3caec9b73a65",
+		"15a86202-d284-1a97-aa8a-f73f717e184f",
+		"617fb386-db1c-cdb8-f65e-9677ceae9895"
+	],
+	"timestamp": 1597744166889,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "056caa62-262c-1023-d817-5a9331eef312",
+			"headers": "Content-Type: application/json\nContent-Length: length\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Length",
+					"value": "length",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiGetPolicyDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiGetPolicyDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597909943042,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1",
+			"rawModeData": "{\r\n  \"InputPolicyGuid\" : \"JOOLEKYHPZUEWKQCJFXK\"\r\n}"
+		},
+		{
+			"id": "068f3913-4e61-a17d-a4fd-6dda88bd2ac8",
+			"headers": "",
+			"headerData": [],
+			"url": "https://telkomtest.cloudcover.insure/TelkomCloudCoverServices/apiListTitles/5",
+			"folder": "617fb386-db1c-cdb8-f65e-9677ceae9895",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599130125962,
+			"name": "http://telkomtest.cloudcover.insure/TelkomCloudCoverServices/apiListTitles/5",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"responses": []
+		},
+		{
+			"id": "0c96c9a8-e24c-bc31-f750-64d4f906ab97",
+			"headers": "Authorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiActivatePolicy?PolicyGuid=TGXBVAMTRFGUVMZGSVNX",
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1",
+			"queryParams": [
+				{
+					"key": "PolicyGuid",
+					"value": "TGXBVAMTRFGUVMZGSVNX",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1599148753251,
+			"name": "https://telkomtest.cloudcover.insure/apiActivatePolicy?PolicyGuid=TGXBVAMTRFGUVMZGSVNX",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"PolicyGuid\" : \"JOOLEKYHPZUEWKQCJFXK\"\r\n}"
+		},
+		{
+			"id": "0fc137df-c015-154a-c13f-fee7c09009eb",
+			"headers": "Authorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiGetAllMyPolicies",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://telkomtest.cloudcover.insure/apiGetAllMyPolicies",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597910260232,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1"
+		},
+		{
+			"id": "2714fb79-7a33-60cc-e7bc-2d787b9aa880",
+			"headers": "Content-Type: application/json\nContent-Length: length\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Length",
+					"value": "length",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiLogin",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiLogin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597764149951,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "df8d8c83-99dd-c150-d4f7-c0bbbce70275",
+			"rawModeData": "{\r\n  \"UserID\" : \"varma.kun19@gmail.com\",\r\n  \"Psw\" : \"BMWH\"\r\n}"
+		},
+		{
+			"id": "38a9e1db-238c-2099-9353-9be4059ad42a",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiCancelPolicy",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiCancelPolicy",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599147467109,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1",
+			"rawModeData": "{\r\n  \"PolicyGuid\" : \"JOOLEKYHPZUEWKQCJFXK\",\r\n  \"Reason\" : \"not intrested\"\r\n}"
+		},
+		{
+			"id": "3b6cb70d-5952-beef-cc78-8af9d1c62ecf",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiUpdateBeneficiaries",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiUpdateBeneficiaries",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597914802222,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "15a86202-d284-1a97-aa8a-f73f717e184f",
+			"rawModeData": "{\r\n  \"InputPolicyGuid\" : \"JOOLEKYHPZUEWKQCJFXK\",\r\n  \"InputBenQueue\" : [\r\n    {\r\n      \"BENACTION\" : \"Insert\",\r\n      \"BENEFICIARYGUID\" : \"aaa\",\r\n      \"BENIFICIARYTYPE\" : \"Individual\",\r\n      \"TITLE\" : \"Mrs\",\r\n     \"FIRSTNAME\" : \"Devi\",\r\n     \"SURNAME\" : \"Kunaparaju\",\r\n     \"IDNUMBER\" : \"8103175045071\",\r\n      \"COMPANYNAME\" : \"BCX\",\r\n      \"REGISTRATIONNO\" : \"1133\",\r\n      \"HOMETELEPHONE\" : \"919951268699\",\r\n      \"WORKTELEPHONE\" : \"919951268699\",\r\n      \"PASSPORTNO\" : \"23423423\",\r\n      \"RELATIONSHIP\" : \"wife\",\r\n      \"ACCOUNTHOLDER\" : \"jaya\",\r\n      \"ACCOUNTNUMBER\" : 12345678,\r\n      \"BANK\" : \"NedBank\",\r\n      \"BRANCHCODE\" : \"190905\",\r\n      \"BenPercent\" : 000,\r\n      \"SHARE\" : 100\r\n    }\r\n  ]\r\n}\r\n"
+		},
+		{
+			"id": "41b7739f-86e7-6514-d2b5-ab2edbe51cd9",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiUpdatePolicyDetails",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiUpdatePolicyDetails",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599149742687,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1",
+			"rawModeData": "{\r\n  \"InputPolicy\" : {\r\n    \"POLICYGUID\" : \"OVIZXDFALFTPGDPTXJSY\",\r\n    \"BENEFITTYPE\" : \"Telkom Funeral A\",\r\n    \"PRODUCTPLAN\" : \"TelFun Family\",\r\n    \"ACCOUNTNUMBER\" : \"123456789\",\r\n    \"PAYMENTFREQUENCY\" : \"Monthly\",\r\n    \"PAYMENTMETHOD\" : \"Debit Order\",\r\n    \"BANKGUID\" : \"Nedbank\",\r\n    \"BRANCHCODE\" : \"198765\",\r\n    \"ACCOUNTTYPE\" : \"Current\",\r\n    \"INCEPTIONDATE\" : \"2020-10-01\",\r\n    \"PREFERREDDEBITORDERDAY\" : 1,\r\n    \"BYPASSPAYMENTDETAILS\" : 1\r\n  }\r\n}"
+		},
+		{
+			"id": "5401310a-79b9-20b5-30d3-f09a61dd0265",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiUpdateCovers",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiUpdateCovers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597915581241,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1",
+			"rawModeData": "{\r\n  \"InputPolicyGuid\" : \"JOOLEKYHPZUEWKQCJFXK\",\r\n   \"InputCoverQueue\" : [\r\n    {\r\n      \"COVACTION\" : \"Insert\",\r\n      \"POLICYCOVERGUID\" : \"aaa\",\r\n      \"BENEFITGUID\" : \"Telkom Funeral A\",\r\n      \"COVERSTATUS\" : \" \",\r\n      \"PRODUCTCOVERGUID\" : \"TelFun Ext Family\",\r\n      \"PRODUCTPARTGUID\" : \"value\",\r\n      \"INSUREDITEM\" : \"Father\",\r\n      \"BIRTHDATE\" : \"1950-01-01\",\r\n      \"GENDER\" : \"Male\",\r\n      \"COVERFROMDATE\" : \"2020-01-01\",\r\n      \"COVERTODATE\" : \"value\",\r\n      \"NAME\" : \"Devi\",\r\n      \"IDNUMBER\" : \"8103175045071\"\r\n      \r\n    }\r\n  ]\r\n}\r\n"
+		},
+		{
+			"id": "5f30e8ae-214b-2ecd-6a68-77e4ff482635",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiCreatePolicy",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1597909948630,
+			"name": "https://telkomtest.cloudcover.insure/apiCreatePolicy",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"PolicyDetails\" : {\r\n    \"CLIENTGUID\" : \"WIIKCYCWMWNUABTGIBNQ\",\r\n    \"POLICYGUID\" : \"aaa\",\r\n    \"PRODUCTTYPE\" : \"Telkom Funeral\",\r\n    \"PRODUCTPLAN\" : \"TelFun Family\",\r\n    \"BENEFITTYPE\" : \"Telkom Funeral A\",\r\n    \"INCEPTIONDATE\" : \"2020-09-01\",\r\n    \"PAYMENTFREQUENCY\" : \"Monthly\",\r\n    \"PAYMENTMETHOD\" : \"Debit Order\",\r\n    \"BANKGUID\" : \"Nedbank\",\r\n    \"ACCOUNTTYPE\" : \"Current\",\r\n    \"ACCOUNTNUMBER\" : 123456789,\r\n    \"PREFERREDDEBITORDERDAY\" : \"01\",\r\n    \"BROKETPOLICYNO\" : \"value\",\r\n    \"INSURERPOLICYNO\" : \"value\",\r\n    \"BROKERGUID\" : \"value\",\r\n    \"INSURERGUID\" : \"value\",\r\n    \"NEWBUSCHANNEL\" : \"value\",\r\n    \"INTERNALEMPLOYEE\" : \"value\",\r\n    \"INTERNALREFERENCE\" : \"value\"\r\n  }\r\n}"
+		},
+		{
+			"id": "8315f59e-6cfe-c0b1-f8eb-7a813d54e2d2",
+			"headers": "",
+			"headerData": [],
+			"url": "https://telkomtest.cloudcover.insure/apiLogout",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://telkomtest.cloudcover.insure/apiLogout",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597850535826,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "df8d8c83-99dd-c150-d4f7-c0bbbce70275"
+		},
+		{
+			"id": "85ce2c60-a404-b0d2-b2c5-c6e2500e6ae5",
+			"headers": "",
+			"headerData": [],
+			"url": "https://telkomtest.cloudcover.insure/ApiRequestHost",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://telkomtest.cloudcover.insure/ApiRequestHost",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597910143572,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f4dc41c3-bf40-d7cc-7cdb-3caec9b73a65"
+		},
+		{
+			"id": "85d9fa64-5247-9852-9da4-08b2883d4b46",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiGetProductInfo",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiGetProductInfo",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597912508112,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1",
+			"rawModeData": "{\r\n  \"loc:ProductGuid\" : \"Telkom Funeral\"\r\n}"
+		},
+		{
+			"id": "878949eb-6724-e2bb-d3ec-6c4ae3eb1b5a",
+			"headers": "Authorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiGetThisClient",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://telkomtest.cloudcover.insure/apiGetThisClient",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597850039808,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "df8d8c83-99dd-c150-d4f7-c0bbbce70275"
+		},
+		{
+			"id": "8e9ba1e1-ba2f-bdfe-4125-1946552a90cc",
+			"headers": "Content-Type: application/json\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiCreatePolicy",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiCreatePolicy",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597909956431,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7ee25783-3226-c532-e0ea-a19d545115f1",
+			"rawModeData": "{\r\n  \"PolicyDetails\" : {\r\n    \"CLIENTGUID\" : \"WIIKCYCWMWNUABTGIBNQ\",\r\n    \"POLICYGUID\" : \"aaa\",\r\n    \"PRODUCTTYPE\" : \"Telkom Funeral\",\r\n    \"PRODUCTPLAN\" : \"TelFun Family\",\r\n    \"BENEFITTYPE\" : \"Telkom Funeral A\",\r\n    \"INCEPTIONDATE\" : \"2020-09-01\",\r\n    \"PAYMENTFREQUENCY\" : \"Monthly\",\r\n    \"PAYMENTMETHOD\" : \"Debit Order\",\r\n    \"BANKGUID\" : \"Nedbank\",\r\n    \"ACCOUNTTYPE\" : \"Current\",\r\n    \"ACCOUNTNUMBER\" : 123456789,\r\n    \"PREFERREDDEBITORDERDAY\" : \"01\",\r\n    \"BROKETPOLICYNO\" : \"value\",\r\n    \"INSURERPOLICYNO\" : \"value\",\r\n    \"BROKERGUID\" : \"value\",\r\n    \"INSURERGUID\" : \"value\",\r\n    \"NEWBUSCHANNEL\" : \"value\",\r\n    \"INTERNALEMPLOYEE\" : \"value\",\r\n    \"INTERNALREFERENCE\" : \"value\"\r\n  }\r\n}"
+		},
+		{
+			"id": "91a6604d-1ad6-9732-910a-a793ef95f888",
+			"headers": "",
+			"headerData": [],
+			"url": "http://telkomtest.cloudcover.insure/apiListLanguage",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://telkomtest.cloudcover.insure/apiListLanguage",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599129650576,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "617fb386-db1c-cdb8-f65e-9677ceae9895"
+		},
+		{
+			"id": "9518dffe-45ae-b19e-e4ef-91545bb0771e",
+			"headers": "Content-Type: application/json\nContent-Length: length\nAuthorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Length",
+					"value": "length",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiUpdateThisClient",
+			"folder": "df8d8c83-99dd-c150-d4f7-c0bbbce70275",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1597902891742,
+			"name": "https://telkomtest.cloudcover.insure/apiUpdateThisClient",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"ClientIn\" : {\r\n    \"CLIENTGUID\" : \"WIIKCYCWMWNUABTGIBNQ\",\r\n    \"MANUALCODE\" : \"051\",\r\n    \"TITLE\" : \"mr\",\r\n    \"INITIALS\" : \"k\",\r\n    \"FIRSTNAMES\" : \"sudhakar\",\r\n    \"SURNAME\" : \"kunaparaju\",\r\n    \"IDNUMBER\" : \"8103175045071\",\r\n    \"CELLPHONE\" : \"919553685558\",\r\n    \"EMAIL\" : \"varma.kun19@gmail.com\",\r\n    \"HOMETEL\" : \"919553685558\",\r\n    \"WORKTEL\" : \"919553685558\",\r\n    \"FAXNO\" : \"0814766227\",\r\n    \"POSTALADDRESS\" : \"moterosa,midrand\",\r\n    \"RESIDENTIALADDRESS\" : \"montherosa,midrand\",\r\n    \"LANGUAGE\" : \"English\",\r\n    \"DATEOFBIRTH\" : \"1981-03-17\",\r\n    \"SEX\" : \"Male\",\r\n    \"EMAILVERIFIED\" : \"0\",\r\n    \"OCCUPATION\" : \"selfemployed\",\r\n    \"PASSPORTNUMBER\" : \"311213123\"\r\n  }\r\n}"
+		},
+		{
+			"id": "99413e3f-a330-b8a0-788d-9c53250dc048",
+			"headers": "Authorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiVerifyClientCellNo",
+			"folder": "df8d8c83-99dd-c150-d4f7-c0bbbce70275",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1597929716355,
+			"name": "https://telkomtest.cloudcover.insure/apiVerifyClientCellNo",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"ClientGuid\" : \"WIIKCYCWMWNUABTGIBNQ\"\r\n}"
+		},
+		{
+			"id": "cc051cdc-4366-9ca9-cc9e-6787abc72dc2",
+			"headers": "Content-Type: application/json\nContent-Length: length\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Length",
+					"value": "length",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiGetTelkomFuneralQuote",
+			"folder": "6a7b95db-860c-7738-38e2-1e80c39b2176",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1597765097940,
+			"name": "http://telkomtest.cloudcover.insure/apiGetTelkomFuneralQuote",
+			"description": "",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"responses": [],
+			"rawModeData": "{\r\n  \"apiGetQuoteInput\" : {\r\n    \"PRODUCT\" : \"Telkom Funeral\",\r\n    \"PLAN\" : \"TelFun Family\",\r\n    \"OPTION\" : \"Telkom Funeral A\"\r\n  },\r\n  \"apiExentedFmilyInput\" : [\r\n    {\r\n      \"AGE\" : 30,\r\n      \"PRODUCTOPTION\" : \"Telkom Funeral A\"\r\n    }\r\n  ]\r\n}"
+		},
+		{
+			"id": "cfbc736f-519a-a243-e91e-5fa98f55dfe8",
+			"headers": "Content-Type: application/json\nContent-Length: length\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Length",
+					"value": "length",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiRegister",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "https://telkomtest.cloudcover.insure/apiRegister",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1597763836462,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "df8d8c83-99dd-c150-d4f7-c0bbbce70275",
+			"rawModeData": "{\r\n  \"ClientIn\" : {\r\n    \"CLIENTGUID\" : \"wrwerwerwerwer\",\r\n    \"MANUALCODE\" : \"051\",\r\n    \"TITLE\" : \"mr\",\r\n    \"INITIALS\" : \"k\",\r\n    \"FIRSTNAMES\" : \"sudhakar\",\r\n    \"SURNAME\" : \"kunaparaju\",\r\n    \"IDNUMBER\" : \"8103175045071\",\r\n    \"CELLPHONE\" : \"0659584753\",\r\n    \"EMAIL\" : \"varma.kun19@gmail.com\",\r\n    \"HOMETEL\" : \"0659584753\",\r\n    \"WORKTEL\" : \"0637130895\",\r\n    \"FAXNO\" : \"0814766227\",\r\n    \"POSTALADDRESS\" : \"moterosa,midrand\",\r\n    \"RESIDENTIALADDRESS\" :\"montherosa,midrand\",\r\n    \"LANGUAGE\" : \"English\",\r\n      \"SEX\" : \"Male\",\r\n    \"OCCUPATION\" : \"selfemployed\",\r\n    \"PASSPORTNUMBER\" : \"311213123\",\r\n    \"BROKERGUID\" : \"121323\",\r\n    \"CHANGEDBY\" : \"13\"\r\n  }\r\n}"
+		},
+		{
+			"id": "eb6f7121-8b81-bd4e-6665-a80211de6c22",
+			"headers": "Authorization: Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic dmFybWEua3VuMTlAZ21haWwuY29tOkJNV0g=",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://telkomtest.cloudcover.insure/apiForgotPassword?eMailAddress=sudhakarvarmak@gmail.com",
+			"queryParams": [
+				{
+					"key": "eMailAddress",
+					"value": "sudhakarvarmak@gmail.com",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": null,
+			"dataMode": "params",
+			"name": "https://telkomtest.cloudcover.insure/apiForgotPassword?eMailAddress=sudhakarvarmak@gmail.com",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599127190814,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "df8d8c83-99dd-c150-d4f7-c0bbbce70275"
+		},
+		{
+			"id": "ef650576-003b-6e25-6671-4a16845a8a22",
+			"headers": "",
+			"headerData": [],
+			"url": "http://telkomtest.cloudcover.insure/apiListBanks",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "5235a4e5-7a25-d59e-673c-f73c4691b1e9",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://telkomtest.cloudcover.insure/apiListBanks",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1599129725513,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "617fb386-db1c-cdb8-f65e-9677ceae9895"
+		}
+	]
+}

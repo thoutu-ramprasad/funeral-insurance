@@ -1,0 +1,501 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Telkom | Plan</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <style> 
+    .btn-success{
+        color: #008FE0 !important;
+        background-color: transparent !important;
+        border-color: transparent !important;
+    }
+    .stepwizard-step p {
+    margin-top: 0px;
+    color:#666;
+    display: inline-table;
+    vertical-align: middle;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+    opacity:1 !important;
+    color:#bbb;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    position: relative;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.panel .front{
+    position:absolute;
+    top:-185px;
+  left:0px;
+  background: linear-gradient(324.99deg, rgba(8, 45, 108, 0.42) 0%, rgba(0, 143, 224, 0.7) 37.73%, rgba(220, 244, 255, 0.035) 102.72%), rgba(0, 143, 224, 0.7);
+box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 0.1), 6px 6px 16px rgba(8, 45, 108, 0.2);
+    text-align: center;
+    -webkit-transform: rotateX(0) rotateY(0);
+    transform: rotateX(0) rotateY(0);
+  -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.panel .back{
+    position:absolute;
+    top:-185px;
+    left:0px;
+    background:#082d6c;
+    box-shadow: 0px 2px 4px rgba(8, 45, 108, 0.2), -6px -6px 25px rgba(0, 143, 224, 0.1), 6px 6px 16px rgba(8, 45, 108, 0.2);
+    text-align: center;
+    -webkit-transform: rotateY(-179deg);
+    transform: rotateY(-179deg);
+  -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.panel.flip .front{ transform: rotateY(179deg) }
+.panel.flip .back{ -webkit-transform: rotateX(0) rotateY(0); }
+
+  .panel {
+    -webkit-perspective: 800px;
+            perspective: 800px;
+  }
+ .swing .front,
+  .swing .back {
+    width: 140px;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transform-origin: 170px 0;
+    transform-origin: 170px 0;
+  }
+  .swing .front {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  .swing .back {
+    background-color: #555; /* hiding this side, so get darker */
+    -webkit-transform: rotateY(-180deg) translateX(198px) translateZ(2px);
+            transform: rotateY(-180deg) translateX(198px) translateZ(2px);
+  }
+
+  .swing.flipswing .front {
+    background-color: #222; /* hiding this side, so get darker */
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  .swing.flipswing .back {
+    background-color: #80888f;
+    -webkit-transform: rotateY(0) translateX(198px) translateZ(2px);
+            transform: rotateY(0) translateX(198px) translateZ(2px);
+  }
+
+ 
+
+    </style>
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-2">
+                                <div class="logo">
+                                    <a href="./">
+                                        <img src="img/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-10">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            
+                                            <li><a href="#"><img class="bell" src="img/topupnav.png" alt=""></a></li>
+                                            <li><a href="#" class="f-12 l-14">Welcome &nbsp;&nbsp;<br/>Anna Jones</a></li>
+                                            <li><a href="#"><img class="arw" src="img/icn_arrow_right_10.png" alt=""></a></li>
+                                        </ul>
+                                    </nav>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+          
+    </header>
+ 
+    
+        <!-- header-end -->
+    
+    <!-- apply_form_area -->
+   
+    <section class="profile_tc bg-blue">
+        <div class="navbar subnav navbar-static-top px-xl-5 px-lg-5 px-md-5">
+            <div class="container-fluid">
+    
+               <div class="row">
+                   <div class="col-md-12 col-sm-12">
+                    <div class="topnav sub-menu">
+                        <ul class="list-inline m-0 p-0">
+                            <li class="list-inline-item"><a class="f-14 l-14" href="http://">My Dashboard</a></li>
+                            <li class="list-inline-item"><a class="f-14 l-14" href="http://">My claims</a></li>
+                            <li class="list-inline-item"><a class=" active f-14 l-14" href="http://">My documents</a></li>
+                          </ul>
+                    </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    
+           
+    </section>
+    <div class="container-fluid p-0 bg-blue">
+    <div class="flex-column-reverse">
+    <div class="row no-gutters flex-row-reverse">
+        <div class="col-lg-6 col-md-6 col-sm-12 mt-5 mb-90 wow fadeInUp" data-wow-delay=".4s" >
+            <img src="img/doc-thanks.png" alt="img" class="w-100"/>
+        </div>
+        <div class="col-lg-6 order-lg-1 col-md-6  col-sm-12  my-auto wow fadeInUp" data-wow-delay=".2s" >
+            <div class="login-profile">
+
+            <div class="content">
+                <div class="tool ">
+                    <h3 class="panel-title f-48  l-52 color-navy ls-minus-2  mb-3 ">Thank you</h3>
+                <p class="my-5 f-24 l-36 ls-m-1 color-black">your document has been sent to <br/><strong>anna@gmail.com</strong></p>
+        
+                   </div>
+       
+            </div>
+        
+            <div class="button-group-area mt-5">
+                                
+                <a href="#" class="genric-btn success-border large w-34 bg-azure-blue nextBtn color-white font-strong border-3x mb-3 uppercase">Done</a>
+            </div> 
+            <span class="line-visible-bottom wow lightSpeedIn" data-wow-duration="1s" data-wow-delay=".1s" style="bottom:-10px;left:auto; right: -100px !important"></span>
+        </div>
+       </div> 
+       </div>
+</div></div>
+        </div></div>
+    </div>    <!--/ apply_form_area -->
+
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <!--<div class='wrap'>
+                <div class='label1 top-right1'>
+                <div class='rrr'><a href="#">Feedback?</a></div>
+                  </div> </div>-->
+                 
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-md-6 col-lg-3">
+                        <div class="footer_widget wow fadeInUp Navbar" data-wow-duration="1.1s" data-wow-delay=".4s">
+                            <h3 class="Navbar__Link Navbar__Link-brand footer_title family-strong f-16">
+                                Mobile
+                            </h3>
+                            <div class="Navbar__Link Navbar__Link-toggle">
+                                <i class="fa fa-plus color-white"></i>
+                              </div>
+                              <nav class="Navbar__Items">
+                              <ul>
+                                <li class="Navbar__Link"><a href="#">Shop </a></li>
+                                <li class="Navbar__Link"><a href="#">Help </a></li>
+                                <li class="Navbar__Link"><a href="#">FAQs</a></li>
+                                <li class="Navbar__Link"><a href="#">My Telkom</a></li>
+                            </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-3">
+                        <div class="footer_widget wow fadeInUp Navbar" data-wow-duration="1.1s" data-wow-delay=".4s">
+                            <h3 class="Navbar__Link Navbar__Link-brand footer_title family-strong f-16">
+                                Home
+                            </h3>
+                            <div class="Navbar__Link Navbar__Link-toggle">
+                                <i class="fa fa-plus color-white"></i>
+                              </div>
+                              <nav class="Navbar__Items">
+                              <ul>
+                                <li class="Navbar__Link"><a href="#">Shop </a></li>
+                                <li class="Navbar__Link"><a href="#">Help </a></li>
+                                <li class="Navbar__Link"><a href="#">FAQs</a></li>
+                                <li class="Navbar__Link"><a href="#">My Telkom</a></li>
+                            </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget wow fadeInUp Navbar" data-wow-duration="1.1s" data-wow-delay=".4s">
+                            <h3 class="Navbar__Link Navbar__Link-brand footer_title family-strong f-16">
+                                Business
+                            </h3>
+                            <div class="Navbar__Link Navbar__Link-toggle">
+                                <i class="fa fa-plus color-white"></i>
+                              </div>
+                              <nav class="Navbar__Items">
+                              <ul>
+                                <li class="Navbar__Link"><a href="#">Shop </a></li>
+                                <li class="Navbar__Link"><a href="#">Help </a></li>
+                                <li class="Navbar__Link"><a href="#">FAQs</a></li>
+                                <li class="Navbar__Link"><a href="#">My Telkom</a></li>
+                            </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-3">
+                        <div class="footer_widget wow fadeInUp Navbar" data-wow-duration="1.1s" data-wow-delay=".4s">
+                            <h3 class="Navbar__Link Navbar__Link-brand footer_title family-strong f-16">
+                                About
+                            </h3>
+                            <div class="Navbar__Link Navbar__Link-toggle">
+                                <i class="fa fa-plus color-white"></i>
+                              </div>
+                              <nav class="Navbar__Items">
+                              <ul>
+                                <li class="Navbar__Link"><a href="#">Who We Are</a></li>
+                                <li class="Navbar__Link"><a href="#">Company </a></li>
+                                <li class="Navbar__Link"><a href="#">Careers</a></li>
+                                <li class="Navbar__Link"><a href="#">Foundation</a></li>
+                                <li class="Navbar__Link"><a href="#">Investor Relations</a></li>
+                                <li class="Navbar__Link"><a href="#">Media Centre</a></li>
+                                <li class="Navbar__Link"><a href="#">Crime Hotline</a></li>
+                            </ul>
+                            </nav>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-3">
+                        <div class="footer_widget wow fadeInUp Navbar" data-wow-duration="1.1s" data-wow-delay=".4s">
+                            <h3 class="Navbar__Link Navbar__Link-brand footer_title family-strong f-16">
+                                Connect
+                            </h3>
+                            <div class="Navbar__Link Navbar__Link-toggle">
+                                <i class="fa fa-plus color-white"></i>
+                              </div>
+                              <nav class="Navbar__Items">
+                              <ul>
+                                <li class="Navbar__Link"><i class="fa fa-comment"></i>&nbsp;&nbsp;&nbsp;<a href="#">Talk To Us</a></li>
+                                <li class="Navbar__Link"><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;<a href="#">Ask the Community </a></li>
+                                <li class="Navbar__Link"><i class="fa fa-facebook"></i>&nbsp;&nbsp;&nbsp;<a href="#">Facebook</a></li>
+                                <li class="Navbar__Link"><i class="fa fa-twitter"></i>&nbsp;&nbsp;&nbsp;<a href="#">Twitter</a></li>
+                                <li class="Navbar__Link"><i class="fa fa-instagram"></i>&nbsp;&nbsp;&nbsp;<a href="#">Instagram</a></li>
+                                <li class="Navbar__Link"><i class="fa fa-youtube"></i>&nbsp;&nbsp;&nbsp;<a href="#">YouTube</a></li>
+                                <li class="Navbar__Link"><i class="fa fa-linkedin"></i>&nbsp;&nbsp;&nbsp;<a href="#">LinkedIn</a></li>
+                            </ul>
+                            </nav>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="scrollup" onclick='window.scrollTo({top: 0, behavior: "smooth"});'><i class="fa fa-angle-up active"></i></a>
+        <div class="copy-right_text wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".3s">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                            <div class="logo right mb-2">
+                                <a href="./">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="right">
+                                <ul class="f-12">
+                                    <li><a href="#">Home</a></li>|
+                                    <li><a href="#">PAIA</a></li>|
+                                    <li><a href="#">Terms and Conditions</a></li>|
+                                    <li><a href="#">POPI</a></li>|
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                            </div>
+                            <p class="copy_right right f-12">© Telkom SA SOC Limited. <script>document.write(new Date().getFullYear());</script> All Rights Reserved.</p>
+                            <p class="copy_right right f-12">An authorised Financial Services Provider - FSP no. 46037</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer end  -->
+
+    <!-- link that opens popup -->
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script>  
+    $(document).ready(function () {
+
+    $(".getquote").click(
+    function () {
+    AlertSave();
+    }            
+    );
+    $(".back-flip").click(
+    function () {
+        $(".hover").removeClass('flip');
+    }            
+    );
+    
+    });
+
+    function AlertSave() {
+        $(".hover").addClass('flip');
+    }
+
+    $('.getquote').click(function(){ 
+      $(this).addClass('flip');
+    },function(){
+      $(this).removeClass('flip');
+    });
+
+
+$('.click').toggle(function(){
+      $(this).addClass('flipswing');
+    },function(){
+      $(this).removeClass('flipswing');
+    });
+
+
+    </script>
+    <script>
+        var btn = $('.scrollup');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".Navbar__Link-toggle").click(function () {
+                $(this).next('nav').toggleClass('active');
+                $(this).find('i').removeClass('fa-plus');
+                $(this).find('i').addClass('fa-minus');
+                if ($('.Navbar__Items').hasClass('active')) {
+                    $('.Navbar__Items.active').show();
+                }else{
+                    $('.Navbar__Items').hide();
+                    $(this).find('i').removeClass('fa-minus');
+                    $(this).find('i').addClass('fa-plus');
+                }
+    });
+           
+        });
+document.querySelector('.Navbar__Link-toggle')
+  .addEventListener('click', classToggle);
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+<span class="tick-icon1"><i class="fa fa-check" aria-hidden="true" style="color:#008FE0;padding-right:0px;"></i></span>
